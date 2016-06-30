@@ -3,7 +3,7 @@ var config = require('./config/config');
 
 var app = express();
 
-app.get('/', function (req, res) {
+app.get('/hello', function (req, res) {
   res.send('Hello World!');
 });
 

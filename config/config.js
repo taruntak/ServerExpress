@@ -7,7 +7,7 @@ function getConfig() {
     // if(env.NODE_ENV && env.NODE_ENV === 'production') {
         return openshift;
     // } else {
-    //     return development;
+        // return development;
     // }
 }
 
