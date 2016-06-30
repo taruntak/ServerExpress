@@ -4,6 +4,7 @@ var config = require('./config/config');
 var app = express();
 
 app.get('/hello', function (req, res) {
+  res.status('200');
   res.send('Hello World!');
 });
 
