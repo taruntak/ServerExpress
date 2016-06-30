@@ -1,0 +1,16 @@
+{
+  "name": "serverwithexpress",
+  "version": "0.0.1",
+  "description": "Simple Example to create server",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --use_strict app.js",
+    "start-dev": "set NODE_ENV=development&&nodemon --debug app.js"
+  },
+  "author": "tarun",
+  "license": "ISC"
+}
